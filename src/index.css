@@ -1,7 +1,10 @@
 @font-face {
-  font-family: "iCielMedium";
-  src: local("iCielMedium"), url("./fonts/iCiel-Medium.ttf") format("truetype");
+  font-family: "iCiel-Gotham-Medium";
+  src: url("./fonts/iCiel-Gotham-Medium.ttf.woff") format("woff"),
+    url("./fonts/iCiel-Gotham-Medium.ttf.svg") format("svg"),
+    url("./fonts/iCiel-Gotham-Medium.ttf.eot");
   font-weight: normal;
+  font-style: normal;
 }
 
 * {
